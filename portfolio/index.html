@@ -1,60 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8" />
-		<title>Hi my name is Jacob</title>
-		<!-- STYLES -->
-		<link rel="stylesheet" href="css/main.css" />
-		<!-- FONTS -->
-		<link
-			href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
-		/>
-		<!-- SCRIPTS -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.min.js"
-			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			crossorigin="anonymous"
-		></script>
-		<script src="js/app.js" charset="utf-8"></script>
-	</head>
-	<body>
-		<div class="container">
-			<!-- =========== CAROUSEL TOP ============== -->
-			<img src="images/carousel.png" alt="" />
-			<h1>My name is Jacob</h1>
-			<!-- =========== CAROUSEL CONTAINER ======== -->
-			<div class="carousel-container">
-				<!-- previous button -->
-				<div class="carousel-button previous">
-					<!-- from linearicons icon font -->
-					<span class="lnr lnr-chevron-left"></span>
-				</div>
-				<!-- images -->
-				<div class="carousel-images">
-					<img src="images/corgi-cute.png" alt="" />
-					<img
-						src="images/corgi-hotdog.png"
-						alt=""
-					/>
-					<img
-						src="images/corgi-goggles.png"
-						alt=""
-					/>
-					<img src="images/corgi-boat.png" alt="" />
-				</div>
-				<!-- next button -->
-				<div class="carousel-button next">
-					<!-- from linearicons icon font -->
-				 <span class="carousel-button">
-                    
-                 </span>
-				</div>
-			</div>
-		</div>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <title>Jacob Zagorenko Portfolio</title>
+  </head>
+  <body>
+    <nav class="mainNav">
+      <button class="nav_btn">MENU</button>
+      <div class="nav_wraper hidden">
+        <ul class="nav_list">
+          <li class="nav_item"><a class="nav_link" href="#">ABOUT ME</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">PROJECTS</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header">
+      <div class="header_left">
+        <img
+          class="header_img"
+          src="style/scott-webb-oRWRlTgBrPo-unsplash.jpg"
+          alt="Plant tree photo thansk to scott webb"
+        />
+      </div>
+      <div class="header_right">
+        <div class="header_right-text">
+          <div class="header_title header_primary">
+            <h1>Jacob Zagorenko</h1>
+          </div>
+          <div class="header_subtitle header_secondary">
+            <h2>software engineer student</h2>
+          </div>
+        </div>
+      </div>
+      <div class="header_quote">
+        <h2>Minimal design, clean code, urban touch...</h2>
+      </div>
+    </div>
+    <div about me></div>
+    <div projects></div>
+    <div contact></div>
+    <script src="app.js"></script>
+  </body>
 </html>

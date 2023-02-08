@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Roboto:wght@400&display=swap');
 
 *{
     margin: 0;
@@ -12,15 +14,9 @@ p{
     font-family: 'Nunito',sans-serif;
     font-size: 20px;
     line-height: 30px;
-    color: white;
+    color: black;
 }
 
-r-nav{
-    background: transparent;
-    padding: 20px 0;
-    transition: .5 all;
-
-}
 body{
     background: bla;
 }
@@ -31,7 +27,8 @@ navbar-brand{
 }
 
 navbar-nav {
-    color: blue;
-    font-size: 16px;
-    letter-spacing: 0.05cm;
+  color: black;
+}
+nav-item{
+    color: black;
 }
